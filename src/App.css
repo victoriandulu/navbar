@@ -1,6 +1,7 @@
 
 body{
   margin: 0;
+  
 }
 .Nav{
   background-color:#333;
@@ -9,8 +10,13 @@ body{
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 20px 80px;
+  padding: 0px 1px;
  
+}
+.image{
+  margin: 0;
+  height: 50px;
+  width: 50px;
 }
 .Nav ul{
   padding: 0;
@@ -29,5 +35,46 @@ body{
 background-color: #3c3030;
 }
 .pricing.hover{
-  background-color: #777;
+  cursor: pointer;;
+  background-color:blue;
 }
+.pricing.active a,
+.about.active a {
+  color: blue;
+}
+/* .main-footer{
+  background-color: #333;
+  gap: 2rem;
+  padding: 0px 1px;
+  width: 100%;
+  margin-top: auto;
+  bottom:0;
+  position: relative;
+  width: 100%;
+}
+.row{
+ color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding:0;
+
+}
+.row2{
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.content-wrap{
+  flex: 1;
+} */
+
+
+
